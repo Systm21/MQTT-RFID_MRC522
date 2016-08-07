@@ -1,6 +1,6 @@
  /*
         -UID Transmitter over MQTT-
-    */
+ */
      
     #include <ESP8266WiFi.h>
     #include <WiFiClient.h>
@@ -12,9 +12,9 @@
     #define RST_PIN D3
      
     const char* host = "rfid_reader";
-    const char* ssid = "N3tw0rk";
-    const char* password = "komodowaran";
-    const char* broker = "192.168.178.33";
+    const char* ssid = "WIFISSID";
+    const char* password = "WIFIPASS";
+    const char* broker = "YOUR_MQTT_SERVER";
      
     WiFiClient wifi;
     MQTTClient mqtt;
