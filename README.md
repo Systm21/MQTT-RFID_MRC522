@@ -11,6 +11,18 @@
 - ESP8266 Boards (2.3.0)
 - MQTT Lib (1.10.1)
 
+#Pinout WEMOS D1 Mini 
+```sh
+RC522 -> WEMOS
+
+3V3 -> 3V3
+GND -> GND
+SDA -> D8
+SCK -> D5
+MOSI -> D7
+MISO -> D6
+RST -> D3
+```
 
 #FHEM integration 
 ```sh
